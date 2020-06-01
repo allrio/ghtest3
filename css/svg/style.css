@@ -1,0 +1,74 @@
+#circle3744 {
+  fill: steelblue;
+  opacity: 1;
+  transform-origin: center;
+  transition: all 1.2s;
+}
+
+#circle3744 {
+  fill: steelblue;
+  opacity: 1;
+  transform-origin: center;
+  transition: all 1.2s;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+  transform-origin: center;
+  transition: all 1.2s;
+}
+
+#playbuttonsvg {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  transform-origin: center;
+  transition: all 1.2s;
+}
+
+#playbuttonsvg:hover {
+  opacity: 0.5;
+  transform: rotate(90deg);
+  transition: all 0.8s;
+}
+
+#letterhousesvg {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  transform-origin: center;
+  transition: all 1.2s;
+}
+
+#letterhousesvg:hover {
+  opacity: 0.5;
+  transform: rotate(360deg);
+  transition: all 0.8s;
+}
+
+img {
+  display: none;
+  fill: blue;
+  opacity: 1;
+  transform-origin: center;
+  transition: all 1.2s;
+  text-align: center;
+  text-indent: 5px;
+}
+
+img:hover {
+  fill: blue;
+  opacity: 0.5;
+  transform: rotate(135deg);
+  transition: all 0.8s;
+}
+
+.playbutton {
+  display: block;
+  background-image: url('playbuttonplain.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

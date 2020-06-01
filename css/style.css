@@ -1,0 +1,523 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Halant', serif;
+}
+
+#background-home {
+  background-image: url('../images/lonelyleaf.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  margin-bottom: 80px;
+  padding-bottom: 25px;
+}
+
+.blog {
+  padding: 50px 0;
+}
+
+.share {
+  display: block;
+  background: rgba(0,0,0,0.9);
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+
+/* .share a {
+  width: 11.11111%;
+  margin: 0 10.11111%;
+} */
+
+h1 {
+  margin: 0 auto;
+  cursor: default;
+  transition: all 1s;
+  font-size: 30px;
+}
+
+.h1-shrink {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+  transition: all 1s;
+}
+
+.article-title {
+  margin: auto 15px;
+}
+
+h2 {
+  font-weight: 100;
+  padding: 0 10px;
+}
+
+h3 {
+  padding-top: 25px;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Halant', sans-serif;
+  margin: 0;
+  line-height: 25px;
+  padding: 20px;
+}
+
+.indented {
+  text-indent: 25px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.quote {
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  padding: 0;
+  margin: auto 0;
+}
+
+li {
+  list-style: none;
+  line-height: 50px;
+  transition: 0.1s;
+  margin: 0 auto;
+}
+
+a {
+  font-weight: 900;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+
+i {
+  margin: 0 20px;
+}
+
+#site {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.contain-it {
+  max-width: 800px;
+  min-width: 300px;
+  margin: 175px auto 0 auto;
+}
+
+.contain-it-music {
+  max-width: 600px;
+  min-width: 300px;
+  margin: 175px auto 0 auto;
+}
+
+.navleft {
+  display: block;
+  position: fixed;
+  margin: 0 auto 0 0;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  left: 50px;
+  top: 150px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.12);
+  z-index: 25;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.navleft:hover {
+  box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.18);
+  padding: 1px 0;
+  z-index: 25;
+}
+
+.navleft li {
+  display: block;
+  height: 50px;
+}
+
+.navleft li a {
+  font-weight: 100;
+}
+
+.navleft li a:hover {
+  color: rgb(100, 100, 100);
+}
+
+#letterhouse {
+  width: 25px;
+  height: auto;
+  margin: 10px;
+  transform-origin: center;
+}
+
+#letterhouse:hover {
+  transform: scale(1.05);
+}
+
+#home-nav {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+  top: 0;
+  color: white;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+#home-nav:hover {
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+#home-nav li a{
+  color: rgba(255, 255, 255, 0.65);
+  border-color: white;
+  letter-spacing: 5px;
+}
+
+#home-nav li a:hover{
+  color: white;
+  font-weight: 100;
+}
+
+#second-corinthians-four-six {
+  max-width: 500px;
+  text-align: center;
+  /*margin: 300px auto 0 auto;*/
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 0.2em;
+  position: fixed;
+  top: 300px;
+}
+
+.main-title {
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+
+.title {
+  position: fixed;
+  width: 100%;
+  padding: 25px 0;
+  margin: 0;
+  top: 0;
+  text-align: center;
+  font-weight: 100;
+  background-color: rgba(240, 240, 240, 1);
+  z-index: 9;
+  transition: all 1s;
+}
+
+.title-shrink {
+  position: fixed;
+  width: 100%;
+  padding: 2px;
+  margin: 0;
+  top: 0;
+  text-align: center;
+  background-color: rgba(25, 25, 25, 0.70);
+
+  z-index: 9;
+  transition: all 1s;
+}
+
+#title-home {
+  position: relative;
+  color: rgba(255, 255, 255, 0.22);
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+#title-home h1 {
+  font-weight: 100;
+  letter-spacing: 20px;
+}
+
+.brand-img {
+  display: block;
+  float: left;
+  margin: 10px;
+  max-height: 40px;
+  position: fixed;
+  transition: all 1s;
+}
+
+.brand-img-shrink {
+  display: block;
+  float: left;
+  margin: 10px;
+  max-height: 20px;
+  position: fixed;
+  transition: all 1s;
+}
+
+.image {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.visuals-menu-item {
+  display: block;
+  max-width: 40%;
+  margin: 100px auto;
+}
+
+.visuals-menu-img {
+  display: block;
+  max-width: 100%;
+}
+
+figcaption {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+.image-content {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 275px auto 0 auto;
+}
+
+.image-visuals {
+  display: block;
+  max-height: 200px;
+  max-width: 60%;
+  margin: 150px auto 0 auto;
+  z-index: 1;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.pentax-though {
+  max-width: 60%;
+  max-height: 300px;
+}
+
+.pentax-though-vertical {
+  max-width: 60%;
+  max-height: 400px;
+}
+
+/*.expand {
+  max-height: 1000px;
+  transition: all 0.75s;
+}*/
+
+.expand-small {
+  max-height: 500px;
+  max-width: 100%;
+  transition: 1s;
+}
+
+.pop-up-explain-hidden, .pop-up-explain-visible {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.95);
+    height: auto;
+    width: auto;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.12);
+    z-index: 10;
+    margin: 100px auto 0 auto;
+    line-height: 25px;
+    transition: 1.5s ease-in-out;
+    overflow: hidden;
+}
+
+.pop-up-explain-hidden {
+    min-width: 250px;
+    max-width: 500px;
+    max-height: 1000px;
+}
+
+.pop-up-explain-visible {
+  min-width: 250px;
+  max-width: 500px;
+  max-height: 0;
+}
+
+.footer-fixed {
+  display: block;
+  position: absolute;
+  background: black;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  text-align: center;
+  color: white;
+  padding: 20px 0 0 0;
+}
+
+.fa-sm {
+  color: white;
+  border-radius: 20px;
+}
+
+#fb-con:hover {
+  background: white;
+  color: black;
+}
+
+#twitcon:hover {
+  background: white;
+  color: black;
+}
+
+#instacon:hover {
+  background: white;
+  color: black;
+}
+
+#yt-con:hover {
+  background: white;
+  color: black;
+}
+
+#sc-con:hover {
+  background: white;
+  color: black;
+}
+
+#footerlinks {
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+#footerlinks a {
+  display: block;
+  color: white;
+  font-weight: 100;
+  margin: 0 20px;
+}
+
+.nav-show-button {
+  display: block;
+  position: fixed;
+  left: 20px;
+  top: 125px;
+  width: 25px;
+  height: 15px;
+  line-height: 15px;
+  max-width: 100%;
+  max-height: 0%;
+  font-family: 'VT323';
+  font-size: 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.0);
+  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.12);
+  z-index: 50;
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 925px) {
+  .navleft {
+    left: 20px;
+    top: 125px;
+    max-width: 0;
+    max-height: 0;
+    padding-top: 18px;
+  }
+
+  .navleft:hover {
+    left: 20px;
+    top: 125px;
+    max-width: 0;
+    max-height: 0;
+    padding-top: 18px;
+  }
+
+  .nav-show-button {
+    left: 20px;
+    top: 125px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 3px;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  .navleft {
+    left: 20px;
+    top: 125px;
+    max-width: 200px;
+    max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 0px) {
+  #home-nav {
+    background: rgba(255, 255, 255, 0.0);
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .pop-up-explain-hidden, .pop-up-explain-visible {
+        margin: 50px 25px 0 25px;
+    }
+
+    figcaption {
+      margin-left: 40px;
+    }
+}
+
+
+
+
+
+
+/* Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-in 1 forwards;
+}
